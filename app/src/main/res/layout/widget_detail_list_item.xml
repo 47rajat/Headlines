@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/widget_list_item"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_image_height"
+        android:id="@+id/widget_image"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/news_article_image"
+        android:background="@color/photo_placeholder"/>
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/widget_image_height"-->
+        <!--android:background="@drawable/news_feed_desc_protection"/>-->
+
+    <TextView
+        android:id="@+id/article_title"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:background="@drawable/news_widget_title_protection"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:layout_gravity="bottom|center_horizontal"
+        tools:text="TITLE"/>
+</FrameLayout>

@@ -1,0 +1,52 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/newsfeed_card_width"
+    android:layout_height="@dimen/newsfeed_card_height"
+    android:layout_marginLeft="@dimen/cardview_margin"
+    android:layout_marginRight="@dimen/cardview_margin"
+    android:layout_marginTop="@dimen/cardview_margin"
+    android:layout_marginBottom="@dimen/cardview_margin"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/thumbnail_height"
+            android:scaleType="fitCenter"
+            android:transitionName="@string/news_feed_logo_transition"
+            android:contentDescription="@string/newsfeed_logo"
+            android:background="@color/photo_placeholder" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/newsfeed_name"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ltgray"
+                android:maxLines="4" />
+            <ImageView
+                android:layout_width="@dimen/icon_square"
+                android:layout_height="@dimen/icon_square"
+                android:contentDescription="@string/newsfeed_fav_status"
+                android:id="@+id/newsfeed_status"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

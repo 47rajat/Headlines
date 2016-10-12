@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#1DE9B6</color>
+    <color name="colorAccentDark">#00BFA5</color>
+
+    <color name="white">#ffff</color>
+    <color name="news_source">#8fff</color>
+    <color name="detail_article_title_background">#333</color>
+
+    <color name="ltgray">#9E9E9E</color>
+    <color name="photo_placeholder">#ccc</color>
+    <color name="headline_source_font_color">#6000</color>
+    <color name="detail_article_title_font_color">#fff</color>
+</resources>

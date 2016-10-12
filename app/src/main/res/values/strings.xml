@@ -1,0 +1,57 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Headlines</string>
+    <string name="content_authority" translatable="false">com.example.stark.headlines</string>
+    <string name="newsfeed_base_url" translatable="false">https://newsapi.org/v1/sources</string>
+    <string name="sync_account_type" translatable="false">headline.example.com</string>
+    <string name="headlines_base_url" translatable="false">https://newsapi.org/v1/articles?</string>
+    <string name="headlines_source_param" translatable="false">source</string>
+    <string name="headlines_api_param" translatable="false">apiKey</string>
+    <string name="headlines_sort_by_param" translatable="false">sortBy</string>
+    <string name="retry_string">Retry</string>
+    <string name="not_online_message">Check your connection and try again.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="news_feed_logo_transition" translatable="false">Transition string for news feed logo</string>
+    <string name="news_article_image_transition" translatable="false">Transition name for news article image</string>
+
+    <string name="time_logo_url" translatable="false">http://i.newsapi.org/time-l.png</string>
+    <string name="time_source_name">time</string>
+
+    <!--Home Screen Strings-->
+    <string name="feed_category_favourites">Your favourite Feeds</string>
+    <string name="feed_category_all">All News feeds</string>
+    <string name="feed_category_general">General</string>
+    <string name="feed_category_business">Business</string>
+    <string name="feed_category_entertainment">Entertainment</string>
+    <string name="feed_category_sports">Sports</string>
+    <string name="feed_category_technology">Technology</string>
+    <string name="feed_category_science_and_nature">Science And Nature</string>
+    <string name="feed_category_music">Music</string>
+    <string name="feed_category_gaming">Gaming</string>
+    <string name="home_screen_headlines_button">Show All</string>
+    <string name="home_screen_favourite_articles">Favourite Articles</string>
+
+
+    <!--Detail Article Screen Strings-->
+    <string name="action_go_to_website">Go to article webpage</string>
+    <string name="up">Up</string>
+    <string name="share_article_link">Share article link</string>
+
+
+    <!--Detail NewsFeed String-->
+    <string name="newsfeed_latest_tag">Latest</string>
+    <string name="newsfeed_top_tag">Top</string>
+    <string name="newsfeed_popular_tag">Popular</string>
+    <string name="action_go_to_homepage">Go to homepage</string>
+    <string name="author"><xliff:g id="publish_source">%1$s</xliff:g> <xliff:f id="publish_time">%2$s</xliff:f></string>
+    <string name="detail_view_article_image">News article image</string>
+
+
+    <!--Widget Strings-->
+    <string name="widget_no_information_message">No information available. Please check network connection.</string>
+    <string name="ACTION_DATA_UPDATED" translatable="false">com.example.headlines.ACTION_DATA_UPDATED</string>
+    <string name="newsfeed_logo">News feed image</string>
+    <string name="news_article_image">News article image</string>
+    <string name="newsfeed_fav_status">Mark or remove news feed as favourite</string>
+
+</resources>
+

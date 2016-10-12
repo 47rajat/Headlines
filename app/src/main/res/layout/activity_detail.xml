@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_article_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.stark.headlines.DetailActivity">
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/article_image_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/photo_placeholder">
+                <ImageView
+                    android:id="@+id/article_image"
+                    android:contentDescription="@string/detail_view_article_image"
+                    android:transitionName="@string/news_article_image_transition"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/detail_card_top_margin"
+                    android:scaleType="centerCrop"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/detail_card_top_margin"
+                    android:background="@drawable/photo_background_protection" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/description_container"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/detail_card_top_margin">
+
+                <LinearLayout
+                    android:id="@+id/meta_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/detail_article_title_background"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical"
+                    android:paddingStart="@dimen/detail_inner_horiz_margin"
+                    android:paddingEnd="@dimen/detail_inner_horiz_margin"
+                    android:paddingTop="@dimen/detail_metabar_vert_padding"
+                    android:paddingBottom="@dimen/detail_metabar_vert_padding"
+                    android:layout_marginBottom="@dimen/detail_metabar_vert_padding">
+
+                    <TextView
+                        android:id="@+id/article_title"
+                        style="?android:attr/textAppearanceLarge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/detail_article_title_font_color"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/detail_title_text_size"
+                        android:lineSpacingMultiplier="0.9" />
+
+                    <TextView
+                        android:id="@+id/article_publisher"
+                        style="?android:attr/textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/news_source" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/article_desc"
+                    style="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/detail_inner_horiz_margin"
+                    android:layout_marginEnd="@dimen/detail_inner_horiz_margin"
+                    android:paddingBottom="@dimen/detail_body_bottom_margin"
+                    android:textColor="@color/ltgray"
+                    android:textColorLink="@color/colorAccent"
+                    android:textSize="@dimen/detail_body_text_size"/>
+
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/go_to_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launch_black_24dp"
+        app:pressedTranslationZ="@dimen/fab_press_translation_z"
+        app:elevation="@dimen/fab_elevation"
+        android:contentDescription="@string/action_go_to_website"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin" />
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/up_container"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+            <android.support.v7.widget.Toolbar
+                app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:layout_width="match_parent"
+                android:background="@drawable/app_bar_background_protection"
+                android:layout_height="?actionBarSize">
+                <ImageButton
+                    android:id="@+id/action_up"
+                    android:layout_width="@dimen/image_button_width"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/up"
+                    android:src="@drawable/ic_arrow_back_black_24dp" />
+
+                <ImageButton
+                    android:id="@+id/article_share"
+                    android:layout_width="@dimen/image_button_width"
+                    android:layout_height="match_parent"
+                    android:background="?selectableItemBackground"
+                    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="end"
+                    android:src="@drawable/ic_share_black_24dp"
+                    android:contentDescription="@string/share_article_link"/>
+            </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/ad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

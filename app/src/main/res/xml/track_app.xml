@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="ga_trackingId">UA-85525347-1</string>
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <screenName name="com.example.stark.headlines.HomeScreen"> Home Screen </screenName>
+    <screenName name="com.example.stark.headlines.HeadlinesActivity">Main Headlines </screenName>
+    <screenName name="com.example.stark.headlines.OtherHeadlinesActivity">News Feeds </screenName>
+    <screenName name="com.example.stark.headlines.DetailActivity">News Details </screenName>
+    <screenName name="com.example.stark.headlines.widget.HeadlineWidgetProvider">News widgets</screenName>
+</resources>

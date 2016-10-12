@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="home_screen_button_distance">8dp</dimen>
+    <dimen name="cardview_margin">4dp</dimen>
+    <dimen name="newsfeed_card_height">200dp</dimen>
+    <dimen name="thumbnail_height">150dp</dimen>
+    <dimen name="newsfeed_card_width">175dp</dimen>
+    <dimen name="icon_square">36dp</dimen>
+    <dimen name="headline_list_padding_top">116dp</dimen>
+    <dimen name="headline_list_side_margin">64dp</dimen>
+    <dimen name="headline_list_padding_bottom">28dp</dimen>
+    <dimen name="headline_view_app_bar_height">250dp</dimen>
+    <dimen name="headline_list_toolbar_side_margin">0dp</dimen>
+    <dimen name="headling_list_toolbar_side_margin">0dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="detail_card_top_margin">304dp</dimen>
+    <dimen name="detail_card_max_width">704dp</dimen>
+    <dimen name="detail_linear_layout_elevation">2dp</dimen>
+    <dimen name="detail_inner_horiz_margin">16dp</dimen>
+    <dimen name="detail_metabar_vert_padding">16dp</dimen>
+    <dimen name="detail_metabar_title_bottom_padding">8dp</dimen>
+    <dimen name="detail_title_text_size">42sp</dimen>
+    <dimen name="detail_body_bottom_margin">96dp</dimen>
+    <dimen name="detail_body_text_size">20sp</dimen>
+    <dimen name="image_button_width">56dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="news_article_fav_icon">24dp</dimen>
+    <dimen name="article_fav_icon_end_padding">16dp</dimen>
+
+
+    <dimen name="widget_article_title_size">15sp</dimen>
+    <dimen name="widget_article_source_size">10sp</dimen>
+    <dimen name="widget_detail_padding">8dp</dimen>
+    <dimen name="widget_title_bar_height">64dp</dimen>
+    <dimen name="widget_detail_default_height">180dp</dimen>
+    <dimen name="widget_detail_min_resize_height">180dp</dimen>
+    <dimen name="widget_detail_min_resize_width">220dp</dimen>
+    <dimen name="widget_detail_default_width">250dp</dimen>
+    <dimen name="news_feed_desc_padding">8dp</dimen>
+    <dimen name="headline_card_image_height">200dp</dimen>
+    <dimen name="newsfeed_image_height">250dp</dimen>
+    <dimen name="newsfeed_list_elevation">4dp</dimen>
+    <dimen name="collapse_min_height">100dp</dimen>
+    <dimen name="headlines_image_height">200dp</dimen>
+    <dimen name="widget_image_height">200dp</dimen>
+
+
+    <dimen name="load_image_size">400dp</dimen>
+    <dimen name="fab_bottom_margin_for_ad">66dp</dimen>
+</resources>
