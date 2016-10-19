@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.stark.headlines.DetailActivity">
+    tools:context="com.rajat.stark.headlines.DetailActivity">
 
     <ScrollView
         android:id="@+id/scrollview"

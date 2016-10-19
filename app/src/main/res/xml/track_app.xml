@@ -3,9 +3,9 @@
     <string name="ga_trackingId">UA-85525347-1</string>
     <bool name="ga_autoActivityTracking">true</bool>
 
-    <screenName name="com.example.stark.headlines.HomeScreen"> Home Screen </screenName>
-    <screenName name="com.example.stark.headlines.HeadlinesActivity">Main Headlines </screenName>
-    <screenName name="com.example.stark.headlines.OtherHeadlinesActivity">News Feeds </screenName>
-    <screenName name="com.example.stark.headlines.DetailActivity">News Details </screenName>
-    <screenName name="com.example.stark.headlines.widget.HeadlineWidgetProvider">News widgets</screenName>
+    <screenName name="com.rajat.stark.headlines.HomeScreen"> Home Screen </screenName>
+    <screenName name="com.rajat.stark.headlines.HeadlinesActivity">Main Headlines </screenName>
+    <screenName name="com.rajat.stark.headlines.OtherHeadlinesActivity">News Feeds </screenName>
+    <screenName name="com.rajat.stark.headlines.DetailActivity">News Details </screenName>
+    <screenName name="com.rajat.stark.headlines.widget.HeadlineWidgetProvider">News widgets</screenName>
 </resources>

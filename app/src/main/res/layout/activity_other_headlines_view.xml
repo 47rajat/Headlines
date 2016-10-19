@@ -6,7 +6,7 @@
     android:id="@+id/activity_news_feed_detail_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.stark.headlines.OtherHeadlinesActivity">
+    tools:context="com.rajat.stark.headlines.OtherHeadlinesActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -57,7 +57,8 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/newsfeed_article_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/protection_recycler_view_height"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 

@@ -22,7 +22,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
     defaultConfig {
-        applicationId "com.example.stark.headlines"
+        applicationId "com.rajat.stark.headlines"
         minSdkVersion 17
         targetSdkVersion 24
         versionCode 1
@@ -37,7 +37,7 @@ android {
         }
     }
     buildTypes.each {
-        it.buildConfigField 'String', 'NEWSAPI_API', '"insert your api key"'
+        it.buildConfigField 'String', 'NEWSAPI_API', '"apiKeyHere"'
     }
 }
 

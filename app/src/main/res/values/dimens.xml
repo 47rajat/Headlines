@@ -3,11 +3,12 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="home_screen_button_distance">8dp</dimen>
+
     <dimen name="cardview_margin">4dp</dimen>
     <dimen name="newsfeed_card_height">200dp</dimen>
-    <dimen name="thumbnail_height">150dp</dimen>
     <dimen name="newsfeed_card_width">175dp</dimen>
-    <dimen name="icon_square">36dp</dimen>
+    <dimen name="thumbnail_height">150dp</dimen>
+    <dimen name="icon_square">24dp</dimen>
     <dimen name="headline_list_padding_top">116dp</dimen>
     <dimen name="headline_list_side_margin">64dp</dimen>
     <dimen name="headline_list_padding_bottom">28dp</dimen>
@@ -51,4 +52,5 @@
 
     <dimen name="load_image_size">400dp</dimen>
     <dimen name="fab_bottom_margin_for_ad">66dp</dimen>
+    <dimen name="protection_recycler_view_height">70dp</dimen>
 </resources>

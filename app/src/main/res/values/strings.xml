@@ -14,7 +14,7 @@
     <string name="news_article_image_transition" translatable="false">Transition name for news article image</string>
 
     <string name="time_logo_url" translatable="false">http://i.newsapi.org/time-l.png</string>
-    <string name="time_source_name">time</string>
+    <string name="time_source_name" translatable="false">time</string>
 
     <!--Home Screen Strings-->
     <string name="feed_category_favourites">Your favourite Feeds</string>

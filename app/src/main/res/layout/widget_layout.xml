@@ -32,7 +32,9 @@
             android:layout_height="match_parent"
             android:id="@+id/widget_empty"
             android:gravity="center"
+            android:textColor="@color/ltgray"
             android:textAppearance="?android:textAppearanceLarge"
+            android:background="@color/white"
             android:text="@string/widget_no_information_message"/>
     </FrameLayout>
 
